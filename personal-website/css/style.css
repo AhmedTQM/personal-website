@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgba(247, 195, 133, 0.847);
+  transition: 10s;
+}
+body:hover {
+  background-color: rgba(255, 124, 2, 0.729);
+  transition: 10s;
+}
+.name {
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  text-align: center;
+  text-decoration: underline;
+  transition: 2.4s;
+  padding-bottom: 40px;
+}
+.name:hover {
+  color: orange;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  transition: 1.9;
+  padding: 16px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.aboutme {
+  display: inline-block;
+  text-align: center;
+  transition: 0.8s;
+  margin: 0 auto;
+  border: solid;
+  border-radius: 3px;
+  padding: 5px;
+}
+.contact {
+  display: inline-block;
+  text-align: center;
+  transition: 0.8s;
+  margin-bottom: 20px;
+  border: solid;
+  border-radius: 3px;
+  padding: 5px;
+  margin-left: 30px;
+}
+.contact:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: orange;
+  border-radius: 20px;
+  transition: 1.2s;
+}
+.aboutme:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: orange;
+  border-radius: 20px;
+  transition: 1.2s;
+}
+
+.hallo {
+  background-color: blanchedalmond;
+  color: black;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: double 3px grey;
+  width: 420px;
+  height: 400px;
+  margin: 20px;
+  margin: 0 auto;
+  transition: 3.4s;
+}
+.hallo:hover {
+  background-color: black;
+  color: azure;
+  width: 500px;
+  height: 500px;
+  transition: 2.4s;
+  border-radius: 30px;
+  border: solid orange 2px;
+}
+.learn {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border: solid white 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  transition: 1s;
+}
+.learn:hover {
+  background-color: black;
+  color: beige;
+  margin-left: 100px;
+  margin-right: 100px;
+  transition: 1s;
+  border-radius: 30%;
+}
+
+img {
+  width: 20px;
+  transition: 1.5s;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+img:hover {
+  width: 350px;
+  transition: 1.5s;
+  border: solid orange 1px;
+  border-radius: 20px;
+}
+figcaption {
+  text-align: center;
+  color: blanchedalmond;
+}
